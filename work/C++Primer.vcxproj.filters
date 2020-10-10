@@ -13,15 +13,45 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\Chapter two">
+      <UniqueIdentifier>{0f80fb61-843c-4999-9591-4deae2ac7895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Miscellaneous">
+      <UniqueIdentifier>{c4ae6f7f-b7e8-456b-994a-00c3fcd3a439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Miscellaneous">
+      <UniqueIdentifier>{4625be39-7e33-4675-b23a-29a003689f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Chapter two">
+      <UniqueIdentifier>{4670e62b-1a0c-4f75-9b21-8fdf6d2e30f8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\C++Primer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\Chapter two\ChapterTwo.cpp">
+      <Filter>源文件\Chapter two</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Miscellaneous\ErgodicEfficiency.cpp">
+      <Filter>源文件\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Chapter two\SalesData.cpp">
+      <Filter>源文件\Chapter two</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Miscellaneous\TestTime.cpp">
+      <Filter>源文件\Miscellaneous</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\Chapter one\Sales_item.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Chapter two\SalesData.h">
+      <Filter>头文件\Chapter two</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Miscellaneous\TestTime.h">
+      <Filter>头文件\Miscellaneous</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

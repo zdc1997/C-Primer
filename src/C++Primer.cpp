@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main()
+int main_1_6()
 {
 	Sales_item total;               //保存下一条交易记录的变量
 
